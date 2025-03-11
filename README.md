@@ -1,7 +1,4 @@
-<img src="https://user-images.githubusercontent.com/74038190/212747107-5b654ba5-31c6-4366-b42b-51b822e9bc52.gif" width="400">
-<br><br>
-
-## Hi Everyone👋 I,m Gladies, nice to meet you!!
+## Hi Everyone <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/a762dc06-3a4c-432e-8679-a99fe8a433b7" width="300"> 👋 I,m Gladies, nice to meet you!!
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/19b4ef1d-2035-4e6f-8484-8bd79d604dc9" width="400">
 
 **gladiessinaga/gladiessinaga** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
