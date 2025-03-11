@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gladies Margaret | Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <style>
+        /* General Styling */
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
@@ -16,8 +18,10 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
+            animation: fadeIn 1.5s ease-in-out;
         }
 
+        /* Container */
         .container {
             width: 90%;
             max-width: 700px;
@@ -27,12 +31,15 @@
             box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
             text-align: center;
             transition: transform 0.3s ease-in-out;
+            opacity: 0;
+            animation: slideUp 1s ease-in-out forwards;
         }
 
         .container:hover {
             transform: scale(1.03);
         }
 
+        /* Profile Picture */
         img.profile {
             width: 150px;
             height: 150px;
@@ -46,6 +53,7 @@
             transform: rotate(5deg) scale(1.1);
         }
 
+        /* Text */
         h1 {
             color: #333;
             font-weight: 600;
@@ -56,6 +64,7 @@
             margin-bottom: 20px;
         }
 
+        /* Social Media Buttons */
         .social-icons {
             display: flex;
             justify-content: center;
@@ -72,6 +81,14 @@
             transition: 0.3s ease-in-out;
             font-weight: bold;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 16px;
+        }
+
+        .social-icons a i {
+            font-size: 20px;
         }
 
         .social-icons a:hover {
@@ -80,20 +97,46 @@
             box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
         }
 
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(30px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <img class="profile" src="https://via.placeholder.com/150" alt="Profile Picture">
+        <img class="profile" src="img1.jpg" alt="Profile Picture">
         <h1>Gladies Margaret</h1>
         <p>👩‍💻 IT Enthusiast | Problem Solver | Passionate Learner</p>
         <p>Currently a 4th-semester student working on various IT projects and assignments.</p>
         
         <div class="social-icons">
-            <a href="https://github.com/gladiessinaga" target="_blank">GitHub</a>
-            <a href="https://linkedin.com/in/gladiesmargaret" target="_blank">LinkedIn</a>
-            <a href="mailto:gladiesmargaret@students.usu.ac.id">Email</a>
+            <a href="https://github.com/gladiessinaga" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://linkedin.com/in/gladiesmargaret" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="mailto:gladiesmargaret@students.usu.ac.id">
+                <i class="fas fa-envelope"></i> Email
+            </a>
         </div>
     </div>
 
