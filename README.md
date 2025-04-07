@@ -18,7 +18,7 @@
 - 💬 Ask me about **creative organizing**
 - 📫 How to reach me: **[LinkedIn](https://linkedin.com/in/gladiesmargaret), [GitHub](https://github.com/gladiessinaga), or [Email](gladiesmargaret@students.usu.ac.id)**  
 - 😄 Pronouns: **She/Her**
-- ⚡ Fun fact: **I enjoy discovering unique and aesthetically pleasing color palettes, and I once found myself drawn to someone because of their impressive memory skills! 😆**
+- ⚡ Fun fact: **I enjoy discovering unique and aesthetically pleasing color palettes 😆**
 <br><br>
 
 <div align="center">
